@@ -1,5 +1,5 @@
 {
-    "name": "GJ516 MUSIC",
+    "name": "GOVIND MUSIC",
     "description": "A VC Player Bot for telegram videochats, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://telegra.ph/file/db8765da6945e3c9333e6.jpg",
     "keywords": [
@@ -28,7 +28,7 @@
       },
       "OWNER_ID": {
         "description": "Fill your user id here. (Must be integer)",
-        "value": "1864894033",
+        "value": "5348648456",
         "required": true
       },
       "SESSION": {
@@ -38,12 +38,12 @@
       },
       "SUDO_USERS": {
         "description": "The user id(s) of user(s) whom you would like to add as a sudo. Multiple values shall be seperated with a space.",
-        "value": "",
+        "value": "5348648456",
         "required": true
       },
       "SUPPORT_CHAT": {
         "description": "Link of your telegram support group. (Must pe public)",
-        "value": "https://t.me/GJ516_DISCUSS_GROUP",
+        "value": "https://t.me/govind_love_n",
         "required": false
       }
     },
