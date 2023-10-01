@@ -55,14 +55,14 @@ async def ping_fallen(_, message: Message):
 ✾ **𝘾𝙥𝙪 :** {cpu}
 ✾ **𝘿𝙞𝙨𝙠 :** {disk}
 
-||𝙈𝙖𝙙𝙚 𝘽𝙮 : [𝙅𝙖𝙮💸](https://t.me/GJ516_DISCUSS_GROUP) || """,
+||𝙈𝙖𝙙𝙚 𝘽𝙮 : [💸GOVIND](https://t.me/GOVIND_USERBOT_SPPORT) || """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("❰𝙂𝙧𝙤𝙪𝙥❱", url=config.SUPPORT_CHAT),
                     InlineKeyboardButton(
                         "❰𝙂𝙞𝙩𝙍𝙚𝙥𝙤❱ ",
-                        url="https://github.com/MrProgrammer72/GJ516Music",
+                        url="https://github.com/GOVIND-BOTS/GJ516Music",
                     ),
                 ],
             ]
