@@ -1,6 +1,6 @@
 import requests
 import random
-from GJ516Music import app, userbot
+from GJ516Music import app, GJ516Music
 from GJ516Music.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
