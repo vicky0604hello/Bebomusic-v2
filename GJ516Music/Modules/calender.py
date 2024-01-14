@@ -42,4 +42,11 @@ async def send_calendar(_, message):
 
     # Generate the calendar for the specified year
     cal = calendar.TextCalendar()
+    full_year_calendar = cal.formatyear(year, 2, 1, 1, 3)
+
+    # Generate the Carbon image for the calendar
+    carbon_image = await make_carbon(full_year_calendar)
+
+    # Send the image as a reply to the user
+    await app.send_photo(message.chat.id, carbon_image, caption=f"Calendar for the year {year}")
  
