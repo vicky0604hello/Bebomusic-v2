@@ -1,4 +1,4 @@
-import requests
+import *
 import random
 from GJ516Music import app, userbot
 from GJ516Music.misc import SUDOERS
